@@ -151,10 +151,8 @@ router.get("/stats", verify, async (req, res) => {
     }
     else{
         res.status(400).json("You are not allowed to do that");
-    }
-  
-    
-  });
+    }  
+});
 
 
 

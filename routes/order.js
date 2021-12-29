@@ -78,7 +78,6 @@ router.get("/", verify, async (req, res) => {
   } else {
     res.status(400).json("You are no allowed");
   }
-
 });
 
 // GET MONTHLY INCOME
